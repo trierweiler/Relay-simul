@@ -44,7 +44,7 @@ with expander_6:
 # =============================================================================
 expander_1 = st.beta_expander(label='Diagrama unifilar')
 with expander_1:
-    image = Image.open('/src/unifilar.jpg')
+    image = Image.open('./unifilar.jpg')
     st.image(image)
 
 # =============================================================================
