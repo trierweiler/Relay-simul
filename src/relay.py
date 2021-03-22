@@ -44,7 +44,7 @@ with expander_6:
 # =============================================================================
 expander_1 = st.beta_expander(label='Diagrama unifilar')
 with expander_1:
-    image = Image.open('unifilar.jpg')
+    image = Image.open('https://github.com/trierweiler/Relay-simul/blob/main/src/unifilar.JPG')
     st.image(image)
 
 # =============================================================================
